@@ -8,12 +8,12 @@ class MissonNotFinishError(Exception):
     pass
 
 def greeting():
-    print("< Tobigs 20 정규세션 git >")
-    print("투빅스 20기 여러분들 환영합니다.")
+    print("< Tobigs 21 정규세션 git >")
+    print("투빅스 21기 여러분들 환영합니다.")
     print("여기는 정규세션 과제 월드입니다.")
     time.sleep(WAITTIME + 1) # 연출을 위해 1초 추가
     print("그리고 저는 당신의 과제 달성을 도와줄 과제 요정입니다 ^^ ")
-    print("과제 중 막히는 부분이 있으면 '19기 이영아'에게 언제든지 카톡 주세요~ ")
+    print("과제 중 막히는 부분이 있으면 '20기 양지우'에게 언제든지 카톡 주세요~ ")
     time.sleep(WAITTIME)
     print("지시에 따라 여러분들에 대해 알려주시면 됩니다!")
 
@@ -25,7 +25,7 @@ def nameCheck():
         try:
             with open("player" + str(i) + "/profile.json", "r", encoding='utf-8') as f:
                 data = json.load(f)
-                if(data["닉네임"] == "[여기에 별명을 적어주세요]" or data["한마디"] == "[투빅스 20기에 임하는 각오 한 마디 적어 주세요!]"): # 모두의 파일이 작성되지 않음
+                if(data["닉네임"] == "[여기에 별명을 적어주세요]" or data["한마디"] == "[투빅스 21기에 임하는 각오 한 마디 적어 주세요!]"): # 모두의 파일이 작성되지 않음
                     time.sleep(WAITTIME)
                     print("아직 모두의 프로필이 작성되지 않았어요.")
                     time.sleep(WAITTIME)
@@ -54,7 +54,7 @@ def clear():
     time.sleep(WAITTIME)
     print("여러분의 놀라운 협동력과 실력으로 모든 과제를 통과했습니다!")
     time.sleep(WAITTIME)
-    print("이 기세로 투빅스 20기 컨퍼런스 까지 파이팅입니다!")
+    print("이 기세로 투빅스 21기 컨퍼런스 까지 파이팅입니다!")
     time.sleep(WAITTIME)
     print("마지막 커밋과 푸시, 과제 제출 잊지 마세요!")
     time.sleep(WAITTIME)
