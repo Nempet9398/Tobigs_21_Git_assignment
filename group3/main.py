@@ -10,6 +10,7 @@ class MissonNotFinishError(Exception):
 def greeting():
     print("< Tobigs 21 정규세션 git >")
     print("투빅스 21기 여러분들 환영합니다.")
+
     print("여기는 정규세션 과제 월드입니다.")
     time.sleep(WAITTIME + 1) # 연출을 위해 1초 추가
     print("그리고 저는 당신의 과제 달성을 도와줄 과제 요정입니다 ^^ ")
@@ -69,3 +70,4 @@ if __name__ == "__main__":
     nameCheck()
     print("\n\n")
     clear()
+
